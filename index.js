@@ -63,14 +63,21 @@ function showTotalScore(){
 }
 
 function submitClick(){
+	console.log("Submit Click");
+	
 	finalNickname = document.getElementById("inputNickname").value;
     ids = Math.floor((Math.random() * 100) + 1);
 	document.documentElement.scrollTop = 0;
 
 	if(finalNickname != ""){
 		loadsc();
+		console.log("Final nickname is not empty");
+		
 		for(var i = 0; i < arr.length; i++){
+			console.log("Loop");
 			if(arr[i] == ids){
+				console.log("Generate new ID "+ids);
+				
 				ids = Math.floor((Math.random() * 100) + 1);
 			}else{
 				console.log("else");
@@ -79,6 +86,8 @@ function submitClick(){
 				break;
 			}
 		}
+		
+		console.log("End of loop");
 	}else{
 		window.alert("nickname tidak boleh kosong!");
 	}
