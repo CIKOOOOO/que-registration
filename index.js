@@ -73,6 +73,8 @@ function submitClick(){
 			if(arr[i] == ids){
 				ids = Math.floor((Math.random() * 100) + 1);
 			}else{
+				console.log("else");
+				
 				trueCond();
 				break;
 			}
