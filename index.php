@@ -42,7 +42,7 @@
 					<div class="nickbox">
 						<input type="text" id="inputNickname" placeholder="masukan nickname" name="nickname" required> <br>
 					</div>
-					<button id="btn" onclick="submitClick()">submit</button>
+					<button id="btn" onclick="submitClick();">submit</button>
 				<!-- </form> -->	
 		</div>
 	</div>
