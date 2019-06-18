@@ -76,6 +76,13 @@ function submitClick(){
 		loadsc();
 		console.log("Final nickname is not empty");
 		
+		if(arr.length == 0){
+			trueCond();
+			console.log("array length is 0");
+			
+			return;
+		}
+
 		for(var i = 0; i < arr.length; i++){
 			console.log("Loop");
 			if(arr[i] == ids){
