@@ -13,6 +13,9 @@ var arr = [];
 // 	})
 // });
 
+console.log("Inside JS");
+
+
 checkId.on("value", function(snapshot){
 	arr = [];
 	snapshot.forEach(function(childSnapshot){
