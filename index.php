@@ -37,13 +37,12 @@
 	<!-- screen1 -->
 	<div id="bodycontainer1">
 		<div class="container1">
-			<h1>Quiz Bca</h1>
-				<!-- <form method="POST" action="main_quiz1.php" onsubmit="return submitClick();">	 -->
-					<div class="nickbox">
-						<input type="text" id="inputNickname" placeholder="masukan nickname" name="nickname" required> <br>
-					</div>
-					<button id="btn" onclick="submitClick();">submit</button>
-				<!-- </form> -->	
+			<h1>Quiz BCA</h1>
+			<img src="res/logo.png" alt="BCA Logo" width="100px" height="100px">
+			<div class="nickbox">
+				<input type="text" id="inputNickname" placeholder="masukan nickname" name="nickname" required> <br>
+			</div>
+			<button id="btn" onclick="submitClick();">submit</button>
 		</div>
 	</div>
         
